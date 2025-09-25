@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMP184-W2</title>
+    <title>1B.LabTaskWeek1.pdf</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>WEEK 2</h1>
+    <div class="header">
+        <h1>Welcome to Web Programming 2</h1>
+        <h2>Student name: Do Tan Dat</h2>
+        <h2 class="student-id">Student ID: GCS230015</h2>
+        <ul class="menu">
+            <li class="active"><a href="">Home</a></li>
+            <li class="active"><a href="">About</a></li>
+            <li class="active"><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div class="about">
+        <h2>About HTML</h2>
+        <p class="about-html">HTML stands for <b>HyberText Markup Language</b></p>
+        <p><br>It is the <i>standard </i>language for creating web pages</p>
+        <img src="https://picsum.photos/200/300" alt="">
+        <p>Src: https://picsum.photos/200/300</p>
+    </div>
+    <div class="article">
+        <h1>Welcome to Web Programming Course! 📚</h1>
+        <p class="your-grade">Your grade: A+ 🏆</p>
+        <button class="btn-submit">Submit 🗃️</button>
+        <h2>Sample Article</h2>
+        <p class="article-section">This is an article section with an ordered list</p>
+        <ol>
+            <li>Introduce</li>
+            <li>Detail</li>
+            <li>Summary</li>
+        </ol>
+        <p>Have a nice day! 🌞</p>
+        <h2>Contact Form</h2>
+        <form action="">
+            <label class="label-form label-name" for="">Name</label> <input class="label-form input-name" type="text"
+                name="" id=""><br>
+            <label class="label-form label-email" for="">Email</label> <input class="label-form input-email" type="text"
+                name="" id=""><br>
+            <label class="label-form label-message" for="">Message</label><br><textarea class="label-form input-message"
+                name="" id=""></textarea><br>
+            <button class="btn-send">Send</button>
+        </form>
+        <table id="table-form">
+            <tr class="table-header">
+                <th>Student Name</th>
+                <th>ID</th>
+                <th>Course</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr class="table-row">
+                <td>Alice Nguyen</td>
+                <td>1001</td>
+                <td>Algorithms</td>
+                <td class="your-grade">A</td>
+            </tr>
+            <tr class="table-row">
+                <td>Bob Tran</td>
+                <td>1002</td>
+                <td>Database</td>
+                <td class="your-grade">B+</td>
+            </tr>
+            <tr class="table-row">
+                <td>Charlie Le</td>
+                <td>1003</td>
+                <td>Algorithms</td>
+                <td class="your-grade">A-</td>
+            </tr>
+        </table>
+    </div>
+
+    <p class="footer">&copy 2025 Web Programming Course</p>
 </body>
+
 </html>

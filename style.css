@@ -1,0 +1,112 @@
+body {
+  background-color: silver;
+}
+.header {
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: #2196f3;
+  color: white;
+}
+.header .student-id {
+  color: #0f50aa;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+.menu li {
+  margin: 0 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: inline-block;
+}
+.about {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+.about-html {
+  color: red;
+  background-color: rgba(255, 68, 0, 0.359);
+  border-left: 4px orange solid;
+  padding-left: 10px;
+}
+
+.your-grade {
+  color: red;
+}
+
+.btn-submit {
+  background-color: rgb(71, 71, 243);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.article {
+  background-color: white;
+  padding: 20px;
+}
+
+.article .article-section {
+  color: red;
+}
+
+.label-form {
+  width: 100%;
+}
+.input-email {
+  background: rgba(0, 128, 0, 0.318);
+  border-radius: 1px;
+  border-color: green;
+}
+.btn-send {
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+.table-header {
+  color: white;
+  background-color: rgb(51, 51, 252);
+}
+
+.table-row:nth-child(even) {
+  background-color: rgb(78, 219, 247);
+  color: black;
+}
+
+.label-form {
+  margin-bottom: 10px;
+}
+
+tr .your-grade {
+  color: green;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+}
